@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0px;
+  margin: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+tr,
+th,
+td {
+  border: 1px solid black;
+}
+
+.table-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.td {
+  text-align: center;
+}

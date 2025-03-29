@@ -1,0 +1,28 @@
+.task-heading {
+  text-align: center;
+  font-size: 18px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.home-title-btn-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subheader-con {
+  display: flex;
+  align-items: center;
+}
+
+.task-form-con {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.text-area-new-line-grid {
+  grid-row: 2;
+  grid-column: 1/3;
+}

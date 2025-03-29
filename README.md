@@ -15,3 +15,11 @@ $ npm install
 $ npm run start
 
 ```
+
+## Route
+
+- /login - page for user login
+- /register - page for registration
+- / - shows list of tasks based on user role
+- /add-task - page for create new task
+- /edit-task/:id - edit/update task based on task id
